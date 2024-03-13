@@ -22,10 +22,21 @@
     .col{
         width: calc(100% / 2 - 20px);
     }
+    /* about */
+    .about article{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .about p{
+        width: calc(100% / 2 - 20px);
+        
+    }
 }
 
 @media screen and (min-width: 1366px) {
 
-    /* header */
-    
+    /* portfolio */
+    .col{
+        width: calc(100% / 3 - 20px);
+    }
 }

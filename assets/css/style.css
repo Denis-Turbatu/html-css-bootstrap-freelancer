@@ -40,4 +40,40 @@ header{
     margin: 10px;
 }
 
+/* about */
+.about{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.about article{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.about p{
+    margin: 20px 0;
+}
+
+/* contact me */
+.contact-me {
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+}
+
+.contact-me form{
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: red;
+}
+
 /* FOOTER */
