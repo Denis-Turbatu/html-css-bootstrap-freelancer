@@ -3,6 +3,7 @@
     --darkgrey-bg: #2c3e50;
     --white-color: #ffffff;
     --darkgrey-bg: grey;
+    font-size: 62.5%;
 }
 
 /* RESET */
@@ -11,4 +12,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-size: 1.6rem;
 }

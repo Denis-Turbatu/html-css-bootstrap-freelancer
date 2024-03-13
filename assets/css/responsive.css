@@ -19,7 +19,7 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .col{
+    .colonna{
         width: calc(100% / 2 - 20px);
     }
     /* about */
@@ -29,14 +29,23 @@
     }
     .about p{
         width: calc(100% / 2 - 20px);
-        
+    }
+    /* info */
+    .info{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .info section{
+        width: calc(100% / 3 - 20px);
     }
 }
 
 @media screen and (min-width: 1366px) {
 
     /* portfolio */
-    .col{
+    .colonna{
         width: calc(100% / 3 - 20px);
     }
 }
