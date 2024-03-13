@@ -19,8 +19,13 @@ header{
 /* HERO */
 
 .hero{
-    height: 300px;
-    background-color: green;
+    background-color: var(--green-color);
+    flex-direction: column;
+}
+
+.avatar-img{
+    width: 60%;
+    max-width: 350px;
 }
 
 /* MAIN */
@@ -28,16 +33,6 @@ header{
 /* gallery */
 .gallery{
     flex-direction: column;
-    /* debug */
-    background-color: red;
-    height: 600px;
-}
-
-.colonna{
-    /* debug */
-    height: 90px;
-    background-color: blue;
-    border: solid 1px yellow;
 }
 
 /* about */

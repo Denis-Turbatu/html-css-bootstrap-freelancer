@@ -2,7 +2,8 @@
     --darkgrey-color: #2c3e50;
     --darkgrey-bg: #2c3e50;
     --white-color: #ffffff;
-    --darkgrey-bg: grey;
+    --grey-bg: #808080;
+    --green-color: #1abc9c;
     font-size: 62.5%;
 }
 
@@ -16,4 +17,8 @@
 
 body{
     font-size: 1.6rem;
+}
+
+img{
+    max-width: 100%;
 }
