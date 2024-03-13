@@ -1,0 +1,43 @@
+/* HEADER */
+header{
+    padding: 20px 0;
+    background-color: var(--darkgrey-color);
+}
+
+.color-grey{
+    color: var(--grey-color);
+}
+
+.bg-grey{
+    background-color: var(--darkgrey-color);
+}
+
+.border-white{
+    border: solid 1px var(--white-color);
+}
+
+/* HERO */
+
+.hero{
+    height: 300px;
+    background-color: green;
+}
+
+/* MAIN */
+
+/* gallery */
+.gallery{
+    background-color: red;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    height: 90px;
+    background-color: blue;
+    border: solid 1px yellow;
+    margin: 10px;
+}
+
+/* FOOTER */
