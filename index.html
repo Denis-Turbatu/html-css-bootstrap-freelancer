@@ -15,15 +15,18 @@
   <body>
     <!-- HEADER -->
     <header
-      class="container-fluid ms-container-fluid d-flex align-items-center"> 
-        <!-- NAVBAR  -->
-      <nav class="d-flex container-lg justify-content-between ">
+      class="container-fluid ms-container-fluid d-flex align-items-center"
+    >
+      <!-- NAVBAR  -->
+      <nav class="d-flex container-lg justify-content-between">
         <!-- LOGO -->
         <a href="" class="text-decoration-none fs-3 fw-bold text-white"
           >START BOOTSTRAP</a
         >
         <!-- ANCHOR TAGS -->
-        <ul class="link-list m-0 fs-3 gap-5 justify-content-center align-items-center">
+        <ul
+          class="link-list m-0 fs-3 gap-5 justify-content-center align-items-center"
+        >
           <li class="d-flex">
             <a href="">Portfolio</a>
           </li>
@@ -45,69 +48,112 @@
     <!-- /HEADER -->
     <!-- HERO -->
     <div class="hero d-flex justify-content-center">
-        <div class="avatar-img my-5 mx-auto">
-                <img src="./assets/img/avatar.svg" alt="">
-        </div>
-        <section class="text-center mb-5 text-white">
-                    <h1>START BOOTSTRAP</h1>
-                    <span class="">
-                        GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
-                    </span>
-                </section>
+      <div class="avatar-img my-5 mx-auto">
+        <img src="./assets/img/avatar.svg" alt="" />
+      </div>
+      <section class="text-center mb-5 text-white">
+        <h1>START BOOTSTRAP</h1>
+        <span class=""> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR </span>
+      </section>
     </div>
     <!-- /HERO -->
     <!-- MAIN -->
-     <main>
-        <section class="text-center fs-1">
-                <p>PORTFOLIO</p>
-            </section>
-        <div class="gallery d-flex">
-            <div class="colonna m-3">
-                <img src="./assets/img/cabin.png" alt="">
-            </div>
-            <div class="colonna m-3">
-                <img src="./assets/img/cake.png" alt="">
-            </div>
-            <div class="colonna m-3">
-                <img src="./assets/img/circus.png" alt="">
-            </div>
-            <div class="colonna m-3">
-                <img src="./assets/img/game.png" alt="">
-            </div>
-            <div class="colonna m-3">
-                <img src="./assets/img/safe.png" alt="">
-            </div>
-            <div class="colonna m-3">
-                <img src="./assets/img/submarine.png" alt="">
-            </div>
+    <main>
+      <h2 class="text-center mt-3 fs-1">PORTFOLIO</h2>
+      <div class="gallery d-flex my-5">
+        <div class="colonna m-3">
+          <img src="./assets/img/cabin.png" alt="" />
         </div>
-        <div class="about d-flex justify-content-center align-items-center">
-            <article class="w-75 d-flex align-items-center my-auto mx-0">
-                <p class="my-3 mx-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores itaque blanditiis ipsa saepe perspiciatis rerum neque alias delectus id aperiam quia, ipsam reprehenderit quos natus beatae dignissimos at, quis est?</p>
-                <p class="my-3 mx-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores itaque blanditiis ipsa saepe perspiciatis rerum neque alias delectus id aperiam quia, ipsam reprehenderit quos natus beatae dignissimos at, quis est?</p>
-            </article>
-            
+        <div class="colonna m-3">
+          <img src="./assets/img/cake.png" alt="" />
         </div>
-        <div class="contact-me d-flex align-items-center">
-            <form action="" class="w-75 mx-auto my-0">
-
-            </form>
+        <div class="colonna m-3">
+          <img src="./assets/img/circus.png" alt="" />
         </div>
-     </main>
+        <div class="colonna m-3">
+          <img src="./assets/img/game.png" alt="" />
+        </div>
+        <div class="colonna m-3">
+          <img src="./assets/img/safe.png" alt="" />
+        </div>
+        <div class="colonna m-3">
+          <img src="./assets/img/submarine.png" alt="" />
+        </div>
+      </div>
+      <div class="about d-flex justify-content-center align-items-center py-5">
+        <h2 class="text-center mt-3 fs-1 text-white">ABOUT</h2>
+        <article class="w-50 d-flex align-items-start my-auto mx-0">
+          <p class="my-3 mx-0 fw-bold fs-5 text-white px-3">
+            Freelancer is a free bootstrap theme created by Start Bootstrap. The
+            download includes the complete source files including HTML, CSS, and
+            JavaScript as well as optional SASS stylesheets for easy
+            customization.
+          </p>
+          <p class="my-3 mx-0 fw-bold fs-5 text-white px-3">
+            You can create your own custom avatar for the masthead, change the
+            icon in the dividers, and add your email address to the contact form
+            to make it fully functional!
+          </p>
+        </article>
+        <button class="p-3 rounded-4 text-white fs-3">
+          <span>Download</span>
+        </button>
+      </div>
+      <div class="contact-me d-flex align-items-center">
+        <form
+          action=""
+          class="w-25 mx-auto my-0 d-flex justify-content-center align-items-center gap-5"
+        >
+          <div class="name w-50">
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="surname w-50">
+            <label for="surname">Surname</label>
+            <input type="email" id="surname" />
+          </div>
+          <div class="number w-50">
+            <label for="number">Phone</label>
+            <input type="tel" id="number" />
+          </div>
+          <div class="comment w-50">
+            <label for="comment">Comment here!</label>
+            <input type="textbox" id="comment" />
+          </div>
+          <input
+            type="button"
+            value="Send"
+            class="py-3 px-4 rounded-3 border-0 text-white fs-3"
+          />
+        </form>
+      </div>
+    </main>
     <!-- /MAIN -->
     <!-- FOOTER -->
-        <footer>
-            <div class="info d-flex align-items-center">
-                <section class="mx-0 my-3"></section>
-                <section class="mx-0 my-3"></section>
-                <section class="mx-0 my-3"></section>
-            </div>
-            <div class="copyright">
-
-            </div>
-        </footer>
+    <footer>
+      <div class="info d-flex align-items-center">
+        <section class="mx-0 my-3 text-center text-white py-2">
+          <h2>Location</h2>
+          <p>2215 John Daniel Drive Clark, MO 65243</p>
+        </section>
+        <section class="mx-0 my-3 text-center text-white py-2">
+          <h2>Around the Web</h2>
+        </section>
+        <section class="mx-0 my-3 text-center text-white py-2">
+          <h2>About Freelancer</h2>
+          <p>
+            Freelance is a free to use, MIT licensed Bootstrap theme created by
+            <a href="">Start Bootstrap</a>.
+          </p>
+        </section>
+      </div>
+      <div
+        class="copyright text-white d-flex align-items-center justify-content-center fs-3 py-5"
+      >
+        <p>Copyright &#169; Your Website 2019</p>
+      </div>
+    </footer>
     <!-- /FOOTER -->
-    
 
     <!-- Fontawesome -->
     <script

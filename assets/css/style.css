@@ -38,27 +38,62 @@ header{
 /* about */
 .about{
     flex-direction: column;
-    /* dubug */
-    height: 400px;
-    background-color: green;
+    background-color: var(--green-color);
 }
 
 .about article{
     flex-direction: column;
 }
 
+.about button{
+    background-color: var(--green-color);
+    border: solid 1px var(--white-color) ;
+}
+
 /* contact me */
 .contact-me {
     /* debug */
     height: 400px;
-    background-color: yellow;
 }
 
 .contact-me form{
-    /* debug */
-    height: 350px;
-    background-color: red;
+    flex-direction: column;
 }
+
+.contact-me input:not(:last-child){
+    height: 40px;
+    width: 75%;
+}
+
+.name, .surname, .number, .comment{
+    border-bottom: solid 2px black;
+    position: relative;
+}
+.name input,
+.surname input,
+.number input,
+.comment input {
+    opacity: 0;
+}
+
+.name label,
+.surname label,
+.number label,
+.comment label{
+    position: absolute;
+    top: 0;
+}
+
+.contact-me input:focus {
+    outline: none;
+}
+
+input[type="button"]{
+    background-color: var(--green-color);
+}
+
+
+
 
 /* FOOTER */
 
@@ -66,18 +101,13 @@ header{
     flex-direction: column;
     /* debug */
     height: 200px;
-    background-color: grey;
+    background-color: var(--lightgrey-color);
 }
 
 .info section{
     width: calc(100% - 20px);
-    /* dedbug */
-    height: 50px;
-    background-color: #fff;
 }
 
 .copyright {
-    /* debug */
-    height: 100px;
-    background-color: blue;
+    background-color: var(--darkgrey-color);
 }
