@@ -72,10 +72,6 @@ hr {
 }
 
 /* contact me */
-.contact-me {
-    /* debug */
-    height: 400px;
-}
 
 .contact-me form {
     flex-direction: column;
@@ -84,6 +80,10 @@ hr {
 .contact-me input:not(:last-child) {
     height: 40px;
     width: 75%;
+}
+
+.form-floating > .ms-form-control{
+    height: 200px !important;
 }
 
 .name,
