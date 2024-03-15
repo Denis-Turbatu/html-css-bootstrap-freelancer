@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./responsive.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <title>Freelancer</title>
   </head>
   <body>
@@ -64,7 +64,7 @@
     <!-- HERO -->
     <div class="hero d-flex justify-content-center">
       <div class="avatar-img my-5 mx-auto">
-        <img src="./img/avatar.svg" alt="" />
+        <img src="./assets/img/avatar.svg" alt="" />
       </div>
       <section class="text-center mb-5 text-white">
         <h1 class="fw-semibold my-5">START BOOTSTRAP</h1>
@@ -93,22 +93,22 @@
       </div>
       <div id="portfolio" class="gallery ms-container d-flex">
         <div class="col-sm-12 col-md-6 col-lg-4 p-4">
-          <img src="./img/cabin.png" alt="" />
+          <img src="./assets/img/cabin.png" alt="" />
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4 p-4">
-          <img src="./img/cake.png" alt="" />
+          <img src="./assets/img/cake.png" alt="" />
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4 p-4">
-          <img src="./img/circus.png" alt="" />
+          <img src="./assets/img/circus.png" alt="" />
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4 p-4">
-          <img src="./img/game.png" alt="" />
+          <img src="./assets/img/game.png" alt="" />
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4 p-4">
-          <img src="./img/safe.png" alt="" />
+          <img src="./assets/img/safe.png" alt="" />
         </div>
         <div class="col-sm-12 col-md-6 col-lg-4 p-4">
-          <img src="./img/submarine.png" alt="" />
+          <img src="./assets/img/submarine.png" alt="" />
         </div>
       </div>
       <div class="about d-flex justify-content-center align-items-center py-5">
@@ -132,25 +132,50 @@
         </button>
       </div>
       <div class="contact-me d-flex align-items-center">
-        <form
-          action=""
-          class="w-100 ms-container mx-auto my-0 d-flex justify-content-center align-items-center gap-5"
-        >
-          <div class="name w-50">
-            <label for="name">Name</label>
-            <input class="form-control" type="text" id="name" />
+        <form action="" class="w-100 ms-container mx-auto my-0 d-flex justify-content-center align-items-center gap-5">
+          <div class="input-group mb-3 w-50">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control w-100"
+                id="floatingInputGroup1"
+                placeholder="Username"
+              />
+              <label for="floatingInputGroup1">Name</label>
+            </div>
           </div>
-          <div class="surname w-50">
-            <label for="surname">Surname</label>
-            <input class="form-control" type="email" id="surname" />
+          <div class="input-group mb-3 w-50">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control w-100"
+                id="floatingInputGroup1"
+                placeholder="Username"
+              />
+              <label for="floatingInputGroup1">Surname</label>
+            </div>
           </div>
-          <div class="number w-50">
-            <label for="number">Phone</label>
-            <input class="form-control" type="tel" id="number" />
+          <div class="input-group mb-3 w-50">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control w-100"
+                id="floatingInputGroup1"
+                placeholder="Username"
+              />
+              <label for="floatingInputGroup1">Phone</label>
+            </div>
           </div>
-          <div class="comment w-50">
-            <label for="comment">Comment here!</label>
-            <input class="form-control" type="textbox" id="comment" />
+          <div class="input-group mb-3 w-50">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control w-100"
+                id="floatingInputGroup1"
+                placeholder="Username"
+              />
+              <label for="floatingInputGroup1">Comment</label>
+            </div>
           </div>
           <input
             type="button"
@@ -164,18 +189,24 @@
     <!-- FOOTER -->
     <footer>
       <div class="info d-flex align-items-center fs-2 py-5">
-        <section class="col-sm-12 col-md-4 mx-0 my-3 text-center text-white py-2">
+        <section
+          class="col-sm-12 col-md-4 mx-0 my-3 text-center text-white py-2"
+        >
           <h2 class="fw-bold fs-1">Location</h2>
           <p>2215 John Daniel Drive Clark, MO 65243</p>
         </section>
-        <section class="col-sm-12 col-md-4 mx-0 my-3 text-center text-white py-2">
+        <section
+          class="col-sm-12 col-md-4 mx-0 my-3 text-center text-white py-2"
+        >
           <h2 class="fw-bold fs-1">Around the Web</h2>
           <i class="fa-brands fa-facebook-f fa-social m-4 text-center"></i>
           <i class="fa-brands fa-google fa-social m-4 text-center"></i>
           <i class="fa-brands fa-twitter fa-social m-4 text-center"></i>
           <i class="fa-brands fa-linkedin fa-social m-4 text-center"></i>
         </section>
-        <section class="col-sm-12 col-md-4 mx-0 my-3 text-center text-white py-2">
+        <section
+          class="col-sm-12 col-md-4 mx-0 my-3 text-center text-white py-2"
+        >
           <h2 class="fw-bold fs-1">About Freelancer</h2>
           <p>
             Freelance is a free to use, MIT licensed Bootstrap theme created by
